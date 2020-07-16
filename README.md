@@ -36,12 +36,14 @@ You can use [graphlib.json.read](https://github.com/dagrejs/graphlib/wiki/API-Re
 
 ## Tools
 
-Any HTML/JavaScript can work! As long as it works in a web browser such as the [VS Code WebView](https://code.visualstudio.com/api/extension-guides/webview), it can work with Foam!
+Any HTML/JavaScript can work! As long as it runs in a web browser such as the [VS Code WebView](https://code.visualstudio.com/api/extension-guides/webview), it can work with Foam!
 
 This [list of graph visualization libraries compiled by Elise Devaux](https://medium.com/@Elise_Deux/the-list-of-graph-visualization-libraries-7a7b89aab6a6) is just a few!
 
 ## Interested?
 
-If you're into dataviz and want to help people visualize their knowledge graphs, ideas, prototypes and hacks are welcome as issues and PRs to this repository!
+If you're into dataviz and want to help people visualize their knowledge graphs, post ideas, prototypes and hacks as issues and PRs to this repository!
+
+A simple HTML file is a good starting point! If we discover an interesting visualization and want to bring it into VS Code or the Foam website template, we can work together to integrate it.
 
 Hop onto [Foam Discord](https://discord.gg/rtdZKgj) for more information!
