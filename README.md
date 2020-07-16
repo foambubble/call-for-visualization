@@ -34,7 +34,7 @@ In addition to just nodes and edges, we could consider other data points:
 
 ## Data
 
-- Foam uses [dagrejs/graphlib] to represent the graph of documents.
+- Foam uses [dagrejs/graphlib](https://github.com/dagrejs/graphlib) to represent the graph of documents.
 -  See [data/foam-docs-2020-07-16.json](data/foam-docs-2020-07-16.json) for an example of such structure.
 - You can use [graphlib.json.read](https://github.com/dagrejs/graphlib/wiki/API-Reference#json-read) to rehydrate the graph if needed.
 
