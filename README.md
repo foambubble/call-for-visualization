@@ -51,3 +51,7 @@ If you're into dataviz and want to help people visualize their knowledge graphs,
 A simple HTML file is a good starting point! If we discover an interesting visualization and want to bring it into VS Code or the Foam website template, we can work together to integrate it.
 
 Hop onto [Foam Discord](https://discord.gg/rtdZKgj) for more information!
+
+## Long term vision
+
+In the long term, Foam could have a generalised "framework", where anyone can drop a plain HTML document that knows how to read a Foam graph into their workspace, and turn it into a useful visualization.
