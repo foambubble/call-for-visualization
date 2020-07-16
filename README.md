@@ -18,21 +18,25 @@ In this graph
 
 I'd like to explore alternative ways of visualizing a graph of documents. There are many possible use cases for such a visualization:
 
-- Navigation (visualisation can send back events to navigate in/between documents etc)
+- Navigation inside VS Code (visualisation can send back events to navigate in/between documents etc)
+- Website navigation in a published Foam
 - Zooming in/out
 - Discovering connections
 - Organising/structuring
 - Decoration/inspiration
-- Publishing on your website
 - Etc.
 
-In addition to simply nodes and edges, we could consider other data points (length of document, number of in/out edges, even frequency of updates extracted from workspace git history...) 
+In addition to just nodes and edges, we could consider other data points:
+- Length of document
+- Number of in/out edges
+- Frequency of updates over time extracted from workspace git history...
+- etc.
 
 ## Data
 
-Foam uses [dagrejs/graphlib] to represent the graph of documents. See [data/foam-docs-2020-07-16.json](data/foam-docs-2020-07-16.json) for an example of such structure.
-
-You can use [graphlib.json.read](https://github.com/dagrejs/graphlib/wiki/API-Reference#json-read) to rehydrate the graph if needed
+- Foam uses [dagrejs/graphlib] to represent the graph of documents.
+-  See [data/foam-docs-2020-07-16.json](data/foam-docs-2020-07-16.json) for an example of such structure.
+- You can use [graphlib.json.read](https://github.com/dagrejs/graphlib/wiki/API-Reference#json-read) to rehydrate the graph if needed.
 
 ## Tools
 
